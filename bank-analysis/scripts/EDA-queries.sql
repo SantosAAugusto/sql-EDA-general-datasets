@@ -1,3 +1,9 @@
+/*
+AVISO:
+O script abaixo contém apenas as queries.
+Para criação da DATABASE, Tabelas e colunas, utilizou-se SQLServer.
+*/
+
 -- Checagem inicial do conjunto, avaliando o número de clientes com informações desconhecidas
 SELECT * FROM youtube.bank
 WHERE job = 'unknown' OR contact = 'unknown' OR education = 'unknown' OR poutcome = 'unknown'
